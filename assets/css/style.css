@@ -1,0 +1,49 @@
+/* 2009 (c) mallini.ru */
+
+html, body, a, img, table, td, tr, form, ul, li {margin: 0; padding: 0; border: 0;}
+img {color: #000;}
+
+h1 { font-size:20px; color:#6ea32f; font-family:Tahoma, Geneva, sans-serif; margin:0; font-smooth: always; font-weight:normal; padding:20px 30px 17px 0; display:inline-block;}
+h2 { font-size:20px; color:#6ea32f; font-family:Tahoma, Geneva, sans-serif; margin:0; font-smooth: always; font-weight:normal; padding:20px 30px 17px 0; display:inline-block;}
+h3 { font-size:16px; color:#106eb7; font-smooth: always; margin:0;}
+h4 { color:#b79647;}
+
+a {color:#fff;}
+a:hover {color:#fff; text-decoration:none;}
+
+p {margin:0 0 15px 0; padding:0;}
+
+td { vertical-align:top;}
+
+body {font-size:20px; color:#fff; background: #4f6e8b; font-family:"Times New Roman", Times, serif;}
+
+.head { height:395px; width:1000px; position:relative; background:url(../images/top.jpg) top no-repeat; overflow:hidden; position:relative;}
+.head .logo { position:absolute; width:364px; height:55px; left:100px; top:30px;}
+.head .language { position:absolute; top:30px; right:50px; text-align:right; font-size:14px;}
+
+.head .mainmenu { width:380px; padding:90px 0 5px 75px;}
+
+.item5 a span {
+	color: #f00 !important;
+	font-style: italic;
+	font-size: 23px;
+}
+
+.head li { list-style:none; padding:10px 0;}
+.head li a { padding-left:30px; text-decoration:none; color:#fff;}
+.head li a:hover { padding-left:30px; text-decoration:none; color:#bdccda; background:url(../images/arrow.png) left no-repeat;}
+.head li.active {text-decoration:none; color:#bdccda; background:url(../images/arrow.png) left no-repeat; cursor:default;}
+.head li.active a { color:#bdccda;}
+
+.text { width:894px; margin:0 auto; background:#4f687e url(../images/text_top.jpg) top no-repeat; font-size:20px; font-family:Georgia, "Times New Roman", Times, serif;}
+.text .in { width:764px; background:url(../images/text_bottom.jpg) bottom no-repeat; padding:30px 50px 30px 80px;}
+
+.footer { height:160px; background:url(../images/footer.jpg) bottom no-repeat;}
+.copy { width:350px; margin:0 auto; text-align:center; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; padding:50px 0 0 0;}
+
+.clear { clear:both;}
+.null { margin:0; background:none;}
+.f_r { float:right;}
+.breadcrumbs { display:block; padding:0 0 10px 0;}
+
+div#layout {position: relative; margin:0 auto; width:1000px;}

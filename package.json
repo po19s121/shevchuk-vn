@@ -1,0 +1,9 @@
+{
+  "name": "shevchuk-vn-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Статическая копия сайта shevchuk-vn.ru для GitHub Pages",
+  "scripts": {
+    "dev": "node server.mjs"
+  }
+}
